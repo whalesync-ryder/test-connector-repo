@@ -1,6 +1,7 @@
 {
     "remoteId": "Companies",
     "displayName": "Companies",
+    "supportsWrite": false,
     "columns":
     [
         {
