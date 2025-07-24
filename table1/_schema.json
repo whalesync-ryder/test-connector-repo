@@ -1,0 +1,175 @@
+{
+    "remoteId": "Companies",
+    "displayName": "Companies",
+    "columns":
+    [
+        {
+            "remoteColumnId": "whalesync_postgres_id",
+            "displayName": "whalesync_postgres_id",
+            "dataType": "postgres/uuid",
+            "typeMetadata":
+            {
+                "displayName": "uuid",
+                "supportsWrite": false,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": true,
+                "displayIcon": "text-aa",
+                "defaultValueIfAbsent": null,
+                "stringMetadata":
+                {
+                    "charMaxLength": null,
+                    "isUUID": true
+                }
+            }
+        },
+        {
+            "remoteColumnId": "name",
+            "displayName": "name",
+            "dataType": "postgres/text",
+            "typeMetadata":
+            {
+                "displayName": "text",
+                "supportsWrite": true,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": false,
+                "displayIcon": "text-aa",
+                "defaultValueIfAbsent": null,
+                "stringMetadata":
+                {
+                    "isMultilineString": true,
+                    "charMaxLength": null
+                }
+            }
+        },
+        {
+            "remoteColumnId": "description",
+            "displayName": "description",
+            "dataType": "postgres/text",
+            "typeMetadata":
+            {
+                "displayName": "text",
+                "supportsWrite": true,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": false,
+                "displayIcon": "text-aa",
+                "defaultValueIfAbsent": null,
+                "stringMetadata":
+                {
+                    "isMultilineString": true,
+                    "charMaxLength": null
+                }
+            }
+        },
+        {
+            "remoteColumnId": "country",
+            "displayName": "country",
+            "dataType": "postgres/text",
+            "typeMetadata":
+            {
+                "displayName": "text",
+                "supportsWrite": true,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": false,
+                "displayIcon": "text-aa",
+                "defaultValueIfAbsent": null,
+                "stringMetadata":
+                {
+                    "isMultilineString": true,
+                    "charMaxLength": null
+                }
+            }
+        },
+        {
+            "remoteColumnId": "founded",
+            "displayName": "founded",
+            "dataType": "postgres/integer",
+            "typeMetadata":
+            {
+                "displayName": "integer",
+                "supportsWrite": true,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": false,
+                "displayIcon": "number-circle-one",
+                "defaultValueIfAbsent": null,
+                "numericalMetadata":
+                {
+                    "isNumerical": true,
+                    "type": "integer"
+                }
+            }
+        },
+        {
+            "remoteColumnId": "industry",
+            "displayName": "industry",
+            "dataType": "postgres/text",
+            "typeMetadata":
+            {
+                "displayName": "text",
+                "supportsWrite": true,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": false,
+                "displayIcon": "text-aa",
+                "defaultValueIfAbsent": null,
+                "stringMetadata":
+                {
+                    "isMultilineString": true,
+                    "charMaxLength": null
+                }
+            }
+        },
+        {
+            "remoteColumnId": "number_of_employees",
+            "displayName": "number_of_employees",
+            "dataType": "postgres/integer",
+            "typeMetadata":
+            {
+                "displayName": "integer",
+                "supportsWrite": true,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": false,
+                "displayIcon": "number-circle-one",
+                "defaultValueIfAbsent": null,
+                "numericalMetadata":
+                {
+                    "isNumerical": true,
+                    "type": "integer"
+                }
+            }
+        },
+        {
+            "remoteColumnId": "url",
+            "displayName": "url",
+            "dataType": "postgres/text",
+            "typeMetadata":
+            {
+                "displayName": "text",
+                "supportsWrite": true,
+                "supportsRead": true,
+                "required": false,
+                "allowsMultipleValues": false,
+                "isPrimary": false,
+                "displayIcon": "text-aa",
+                "defaultValueIfAbsent": null,
+                "stringMetadata":
+                {
+                    "isMultilineString": true,
+                    "charMaxLength": null
+                }
+            }
+        }
+    ]
+}
