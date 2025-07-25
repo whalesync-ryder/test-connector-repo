@@ -1,0 +1,37 @@
+{
+  "remoteId": "countries",
+  "displayName": "Countries",
+  "columns": [
+    {
+      "remoteColumnId": "7407aafb-8032-44eb-9836-79d274d05685",
+      "displayName": "whalesync_postgres_id",
+      "dataType": "github/string",
+      "typeMetadata": {
+        "displayName": "uuid",
+        "supportsWrite": false,
+        "supportsRead": true,
+        "required": false,
+        "allowsMultipleValues": false,
+        "isPrimary": true,
+        "displayIcon": "text-aa",
+        "defaultValueIfAbsent": null,
+        "stringMetadata": {
+          "charMaxLength": null,
+          "isUUID": true
+        }
+      }
+    },
+    {
+      "remoteColumnId": "_ws_sha",
+      "displayName": "Last commit",
+      "dataType": "github/string",
+      "typeMetadata": {
+        "supportsRead": true,
+        "supportsWrite": false,
+        "required": false,
+        "defaultValueIfAbsent": null,
+        "allowsMultipleValues": false
+      }
+    }
+  ]
+}
