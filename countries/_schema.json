@@ -51,6 +51,25 @@
           "charMaxLength": null
         }
       }
+    },
+    {
+      "remoteColumnId": "8b127edc-f94e-4965-9491-e91d760bfaf8",
+      "displayName": "language",
+      "dataType": "github/string",
+      "typeMetadata": {
+        "displayName": "text",
+        "supportsWrite": true,
+        "supportsRead": true,
+        "required": false,
+        "allowsMultipleValues": false,
+        "isPrimary": false,
+        "displayIcon": "text-aa",
+        "defaultValueIfAbsent": null,
+        "stringMetadata": {
+          "isMultilineString": true,
+          "charMaxLength": null
+        }
+      }
     }
   ]
 }
